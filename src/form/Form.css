@@ -1,0 +1,30 @@
+.add-song-btn {
+    background-color: #a93F55;
+    color: white;
+    font-weight: bolder;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 55px;
+    width: 800px;
+    border-radius: 10px;
+    border: none;
+}
+
+.title-btn {
+    height: 55px;
+    width: 800px;
+    border-radius: 10px;
+}
+
+.artist-btn {
+    height: 55px;
+    width: 800px;
+    border-radius: 10px;
+}
+
+.time-btn {
+    height: 55px;
+    width: 800px;
+    border-radius: 10px;
+}
