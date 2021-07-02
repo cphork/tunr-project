@@ -5,7 +5,7 @@
 }
 
 .heart-btn {
-    margin-left: 750px;
+    margin-left: 550px;
     display: flex;
     font-size: 20px;
     text-align: center;
@@ -13,8 +13,8 @@
     color: #a93F55;
     border: none;
     border-radius: 15px;
-    margin-top: -15px;
-    margin-bottom: 15px;
+    margin-top: -45px;
+    margin-bottom: 35px;
     
 }
 
