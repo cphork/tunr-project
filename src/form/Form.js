@@ -26,7 +26,7 @@ const Form = (props) => {
 
     return (
         <div className='add-song'>
-            <h2>ADD A NEW SONG</h2>
+            <h2 className='add-text'>ADD A NEW SONG</h2>
             <form onSubmit={handleSubmit} className='all-btn'>
                 <h4>TITLE</h4>
                 <input

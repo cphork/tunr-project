@@ -6,25 +6,37 @@
     margin-top: 20px;
     margin-bottom: 20px;
     height: 55px;
-    width: 800px;
+    width: 810px;
     border-radius: 10px;
     border: none;
+    margin-left: 35px;
 }
 
 .title-btn {
     height: 55px;
     width: 800px;
     border-radius: 10px;
+    margin-left: 35px;
 }
 
 .artist-btn {
     height: 55px;
     width: 800px;
     border-radius: 10px;
+    margin-left: 35px;
 }
 
 .time-btn {
     height: 55px;
     width: 800px;
     border-radius: 10px;
+    margin-left: 35px;
+}
+
+.add-text {
+    margin-left: 35px;
+}
+
+h4 {
+    margin-left: 35px;
 }

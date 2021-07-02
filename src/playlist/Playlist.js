@@ -9,20 +9,19 @@ const myPlaylist = (props) => {
             <h1 className='playlist-text'>PLAYLIST 1</h1>
             {playlist.map((song, index) => (
 
-                <div className='all-btn'>
-
+                <div>
                     <h3 className='artist-text'>{song.artist}</h3>
-                    <button
-                        className='heart-btn'
-                        onClick={() =>
-                            addFaveSong(song)}
-                    >&#9825;
-                        </button>
-
                     <h3 className='title-text'>{song.title}</h3>
-                    <h4 className='time-text'>{song.time}</h4>
-
-
+                    <div className='align'>
+                        <h4 className='time-text'>{song.time}</h4>
+                        <button
+                            className='heart-btn'
+                            onClick={() =>
+                                addFaveSong(song)}
+                        >&#9825;
+                        </button>
+                    </div>
+                    <hr className='gray-line' />
                 </div>
 
 

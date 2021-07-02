@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import './App.css';
-import './form/Form.css'
-import './playlist/Playlist.css'
+import './form/Form.css';
+import './playlist/Playlist.css';
 import Favorite from './favorite/Favorite';
 import Form from './form/Form';
 import Playlist from './playlist/Playlist';

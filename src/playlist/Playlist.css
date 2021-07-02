@@ -1,7 +1,5 @@
 .artist-text {
-    /* display: flex;
-    justify-content: flex-end; */
-    margin-left: 600px;
+    margin-left: 55px;
     font-family: monospace;
     font-size: 20px;
 }
@@ -14,7 +12,7 @@
     cursor: pointer;
     outline: none;
     color: #fff;
-    background-color: #a93F55;
+    background: #a93F55;
     border: none;
     border-radius: 15px;
     box-shadow: 0 2px #999;
@@ -29,8 +27,9 @@ background-color: black;
     justify-content: left;
     margin-left: 55px;
     font-family: monospace;
-    font-size: 20px;
+    font-size: 15px;
     color: #5f818e;
+    margin-top: -15px;
 }
 
 .time-text {
@@ -38,7 +37,8 @@ background-color: black;
     justify-content: left;
     margin-left: 55px;
     font-family: monospace;
-    font-size: 20px;
+    font-size: 15px;
+    margin-top: -15px;
     
 }
 
@@ -60,3 +60,10 @@ background-color: black;
     color: white;
 }
 
+.align {
+    display: flex;
+}
+
+.gray-line {
+    border: 1px solid gray;
+}
