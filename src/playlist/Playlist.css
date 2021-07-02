@@ -7,15 +7,15 @@
 .heart-btn {
     margin-left: 750px;
     display: flex;
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
     cursor: pointer;
-    outline: none;
-    color: #fff;
-    background: #a93F55;
+    color: #a93F55;
     border: none;
     border-radius: 15px;
-    box-shadow: 0 2px #999;
+    margin-top: -15px;
+    margin-bottom: 15px;
+    
 }
 
 .heart-btn:hover {
